@@ -1,1 +1,3 @@
-pythonEnvironment.bat
+.venv/
+pythonEnvironment
+chromeDriver/
