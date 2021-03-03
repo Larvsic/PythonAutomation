@@ -15,7 +15,13 @@ from configuration.urlFiles import *
 # Front End Testing
 @given(u'As a user I launch "{URL}" website')
 def OpenURL(context, URL):
-    driver.get(URL)
-    driver.implicitly_wait(2)
+    context.driver.get(URL)
+    context.driver.implicitly_wait(2)
     # from configuration.endpoints import MockEndpoints
     # from data_dictionary.earlyValidation_data import *
+
+
+@given(u'I launch "{URL}"')
+def OpenLoginURL(context, URL):
+    context.driver.get(URL)
+    context.driver.implicitly_wait(2)

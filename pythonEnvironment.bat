@@ -1,6 +1,6 @@
-path where python is installed .exe -m pip install virtualenv
-path where python is installed .exe -m virtualenv .venv
+C:\Users\luis.ramirez.vazquez\AppData\Local\Programs\Python\Python38\python.exe -m pip install virtualenv
+C:\Users\luis.ramirez.vazquez\AppData\Local\Programs\Python\Python38\python.exe -m virtualenv .venv
 call .venv\Scripts\activate
-cd PATH_TO_LOCAL_TEST_REPOSITORY
+cd C:\Users\luis.ramirez.vazquez\Documents\PythonFramework\PythonAutomation
 pip install -r requirements.txt
 cmd /k
